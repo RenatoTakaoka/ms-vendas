@@ -21,6 +21,7 @@ public class VendaDTO {
     private LocalDate data;
     private Double comissao;
     private String status;
+    private VendedorDTO vendedorDTO;
 
     public VendaDTO(Venda venda) {
         id = venda.getId();
